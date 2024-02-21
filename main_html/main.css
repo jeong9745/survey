@@ -1,0 +1,95 @@
+/* main.css */
+.container {
+  max-width: 960px;
+  margin: 0 auto; /* 수평 가운데 정렬 */
+  margin-top: 50px; /* 원하는 수직 간격 조절 */
+  margin-bottom: 120px;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center; /* 텍스트를 가로로 중앙에 배치 */
+  font-size: 2em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* 조정 가능한 수직 간격 */
+}
+
+table.Q1 {
+  background-color: #f2f2f2;
+}
+
+.Q2_length{
+  width: 10%;
+}
+
+.Q2_radio{
+  display: block;
+  margin: 0 auto;
+}
+
+.Q2_header {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.Q2 tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+th.check, td.check {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th.check {
+  background-color: #f2f2f2;
+}
+
+td.Q2_1 {
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: #bdbaba;
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  float: right;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #979797;
+}
+
+table.satisfaction-table {
+  width: 100%;
+}
+
+td.satisfaction {
+  width: 110px; /* 매우 만족과 만족 열의 가로 길이 조절 */
+  text-align: center;
+}
